@@ -1,0 +1,262 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Sito E-commerce</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-yEPZ7jP9S0QKiUQ0m3jjsO4ProIW7wvR9gXkI7JOGa2XVsw53Yke2bsdkBbjmmiX" crossorigin="anonymous">
+	<style>
+	
+		body {
+			background-color: green;
+		}
+		
+		.card {
+            height: 100%;
+        }
+		
+		.card-img-top {
+            height: 180px;
+            object-fit: contain;
+            padding: 10px;
+            background-color: white;
+        }
+        
+        .card-footer {
+            border-top: none;
+        }
+        
+        .card-body {
+        	text-align: center;
+        }
+        
+        .prezzo {
+        	text-align: center;
+        }
+        
+        h1 {
+        	text-align: center;
+        }
+        
+        .dettagli {
+        	text-align: center;
+        }
+		
+		.dropdown-item:hover { /* cambio di colore passando il mouse (hover) su una voce del menù dropdown */
+			background-color: #111111;
+		}
+	</style>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.bundle.min.js" integrity="sha384-WyOxWvTyr1QaMPfiPJSv76iReVthorl5uWlFtZPyK0IEB0hGzo9y5Bp9mYanr8Bu" crossorigin="anonymous"></script>
+</head>
+<body>
+
+	<h1>Benvenuti sul catalogo</h1>
+	
+	<div class="row g-4">
+	
+		<!-- Prodotto n.1-->
+		<div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+			<div class="card">
+				<img src="Racchetta da tennis.jpg" alt="Racchetta da tennis" class="card-img-top">
+				<div class="card-body">
+					<p>Racchetta da tennis</p>
+				</div>
+				<div class="card-footer">
+					<p class="prezzo">€ 17,50</p>
+					<div class="dettagli">
+					<a href="racchetta_da_tennis.html" class="btn btn-primary btn-sm">Dettagli</a>
+					</div>
+					<button class="btn btn-dark" data-bs-toggle="collapse" data-bs-target="#esempio">Aggiungi al carrello</button>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Prodotto n.2-->
+		<div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+			<div class="card">
+				<img src="Pallone da calcio.jpg" alt="Pallone da calcio" class="card-img-top">
+				<div class="card-body">
+					<p>Pallone da calcio</p>
+				<div class="card-footer">
+					<p class="prezzo">€ 8,50</p>
+					<div class="dettagli">
+					<a href="racchetta_da_tennis.html" class="btn btn-primary btn-sm">Dettagli</a>
+					</div>
+					<button class="btn btn-dark" data-bs-toggle="collapse" data-bs-target="#esempio">Aggiungi al carrello</button>
+				</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Prodotto n.3 -->
+		<div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+			<div class="card">
+				<img src="Cyclette.jpg" alt="Cyclette" class="card-img-top">
+				<div class="card-body">
+					<p>Cyclette</p>
+				<div class="card-footer">
+					<p>€ 150,00</p>
+					<div class="dettagli">
+					<a href="cyclette.html" class="btn btn-primary btn-sm">Dettagli</a>
+					</div>
+					<button class="btn btn-dark" data-bs-toggle="collapse" data-bs-target="#esempio">Aggiungi al carrello</button>
+				</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Prodotto n.4 -->
+		<div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+			<div class="card">
+				<img src="Mazza da baseball.jpg" alt="Mazza da baseball" class="card-img-top">
+				<div class="card-body">
+					<p>Mazza da baseball</p>
+				<div class="card-footer">
+					<p>€ 80,00</p>
+					<div class="dettagli">
+					<a href="#" class="btn btn-primary btn-sm">Dettagli</a>
+					</div>
+					<button class="btn btn-dark" data-bs-toggle="collapse" data-bs-target="#esempio">Aggiungi al carrello</button>
+				</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Prodotto n.5 -->
+		<div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+			<div class="card">
+				<img src="Guanto da baseball.jpg" alt="Guanto da baseball" class="card-img-top">
+				<div class="card-body">
+					<p>Guanto da baseball</p>
+					<div class="card-footer">
+					<p>€ 45,60</p>
+					<div class="dettagli">
+					<a href="#" class="btn btn-primary btn-sm">Dettagli</a>
+					</div>
+					<button class="btn btn-dark" data-bs-toggle="collapse" data-bs-target="#esempio">Aggiungi al carrello</button>
+				    </div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Prodotto n.6 -->
+		<div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+			<div class="card">
+				<img src="Pallina da tennis.jpg" alt="Pallina da tennis" class="card-img-top">
+				<div class="card-body">
+					<p>Pallina da tennis</p>
+					<div class="card-footer">
+					<p>€ 3,60</p>
+					<div class="dettagli">
+					<a href="#" class="btn btn-primary btn-sm">Dettagli</a>
+					</div>
+					<button class="btn btn-dark" data-bs-toggle="collapse" data-bs-target="#esempio">Aggiungi al carrello</button>
+				    </div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Prodotto n.7-->
+		<div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+			<div class="card">
+				<img src="Scarpini da calcio.jpg" alt="Scarpini da calcio" class="card-img-top">
+				<div class="card-body">
+					<p>Scarpini da calcio</p>
+				</div>
+				<div class="card-footer">
+					<p>€ 98,75</p>
+					<div class="dettagli">
+					<a href="#" class="btn btn-primary btn-sm">Dettagli</a>
+					</div>
+					<button class="btn btn-dark" data-bs-toggle="collapse" data-bs-target="#esempio">Aggiungi al carrello</button>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Prodotto n.8 -->
+		<div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+			<div class="card">
+				<img src="Pesi.jpg" alt="Pesi" class="card-img-top">
+				<div class="card-body">
+					<p>Pesi</p>
+				</div>
+				<div class="card-footer">
+					<p>€ 2,97</p>
+					<div class="dettagli">
+					<a href="#" class="btn btn-primary btn-sm">Dettagli</a>
+					</div>
+					<button class="btn btn-dark" data-bs-toggle="collapse" data-bs-target="#esempio">Aggiungi al carrello</button>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Prodotto n.9 -->
+		<div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+			<div class="card">
+				<img src="Tappeto pilates.jpg" alt="Tappeto pilates" class="card-img-top">
+				<div class="card-body">
+					<p>Tappeto pilates</p>
+				</div>
+				<div class="card-footer">
+					<p>€ 12,36</p>
+					<div class="dettagli">
+					<a href="#" class="btn btn-primary btn-sm">Dettagli</a>
+					</div>
+					<button class="btn btn-dark" data-bs-toggle="collapse" data-bs-target="#esempio">Aggiungi al carrello</button>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Prodotto n.10 -->
+		<div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+			<div class="card">
+				<img src="Racchetta da ping pong.jpg" alt="Racchetta da ping pong" class="card-img-top">
+				<div class="card-body">
+					<p>Racchetta da ping pong</p>
+				</div>
+				<div class="card-footer">
+					<p>€ 2,50</p>
+					<div class="dettagli">
+					<a href="#" class="btn btn-primary btn-sm">Dettagli</a>
+					</div>
+					<button class="btn btn-dark" data-bs-toggle="collapse" data-bs-target="#esempio">Aggiungi al carrello</button>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Prodotto n.11 -->
+		<div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+			<div class="card">
+				<img src="Pallina da ping pong.jpg" alt="Pallina da ping pong" class="card-img-top">
+				<div class="card-body">
+					<p>Pallina da ping pong</p>
+				</div>
+				<div class="card-footer">
+					<p>€ 0,50</p>
+					<div class="dettagli">
+					<a href="#" class="btn btn-primary btn-sm">Dettagli</a>
+					</div>
+					<button class="btn btn-dark" data-bs-toggle="collapse" data-bs-target="#esempio">Aggiungi al carrello</button>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Prodotto n.12 -->
+		<div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+			<div class="card">
+				<img src="Elastico per sport.jpg" alt="Elastico per sport" class="card-img-top">
+				<div class="card-body">
+					<p>Elastico per sport</p>
+				</div>
+				<div class="card-footer">
+					<p>€ 7,50</p>
+					<div class="dettagli">
+					<a href="#" class="btn btn-primary btn-sm">Dettagli</a>
+					</div>
+					<button class="btn btn-dark" data-bs-toggle="collapse" data-bs-target="#esempio">Aggiungi al carrello</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
