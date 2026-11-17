@@ -11,6 +11,10 @@
 			background-color: green;
 		}
 		
+		.container {
+			text-align: center;
+		}
+		
 		.card {
             height: 100%;
         }
@@ -28,6 +32,8 @@
         
         .card-body {
         	text-align: center;
+        	display: flex;
+    		flex-direction: column;
         }
         
         .prezzo {
@@ -51,7 +57,7 @@
 <body>
 
 	<h1>Benvenuti sul catalogo</h1>
-	
+<div class="container">
 	<div class="row g-4">
 	
 		<!-- Prodotto n.1-->
@@ -258,5 +264,6 @@
 			</div>
 		</div>
 	</div>
+</div>
 </body>
 </html>
